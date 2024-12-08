@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+	display: block;
+	margin: 0;
+	background-color: #F7F3F7;
+}
+
+h2, h4{
+	font-family: Montserrat;
+	font-weight: 500;
+	text-align: center;
+	color: #1b1A1A;
+}
+
+.navbar img{
+    padding: 0 15px 0 0px;
+	width: 100px;
+}
+
+h3{
+	line-height: 0px;
+    font-weight: 500;
+    font-size: 1.5rem;
+    font-style: italic;
+	font-family: Kanit;
+	text-align: center;
+	color: #000000;
+}
+
+.navbar{
+	position: sticky;
+	top: 0;
+	box-shadow: 0px 0px 3px 0px black;
+	padding: 10px 0px 10px 15px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+    justify-content: space-between;
+	background-color: #FFFFFF;
+	margin: 0px;
+}
+
+.pad{
+    width: 229px;
+}
+
+.links{
+    display: flex;
+    justify-content: left;
+}
+
+.links .active{
+    color: #FE1001;
+}
+
+.links a:hover{
+    color: #FE1001;
+}
+
+.links a{
+    text-decoration: none;
+    font-family: Kanit;
+    font-size: 1.2rem;
+    color: #000000;
+    padding: 0 10px;
+}
+
+.head{
+    display: flex;
+	align-items: center;
+    justify-content: left;
+    margin: 5px 20px;
+}
+
+.flex-container{
+	flex-direction: column;
+	justify-content: center;
+	display: flex;
+	background-color: transparent;
+	margin: 15px 50px 40px 50px;
+}
+
+.featured, .projects, .bio{
+	border-radius: 0px;
+	margin: 5px 60px 15px 60px;
+	display: flex;
+	justify-content: center;
+}
+
+.featured{
+	background-color: #FFFEFE;
+	border-top: 1px solid lightgrey;
+	height: 325px;	
+}
+
+.photo-container{
+	margin: 20px;
+	padding: 0px 30px;
+	border-radius: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.photo-container img{
+	border-radius: 200px;
+	border: 15px solid #1B1A1A;
+	width: 225px;
+	height: fit-content;
+}
+
+.projects{
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.project{
+	background-color: #FFFEFE;
+	border-top: 1px solid lightgrey;
+	margin: 0px 0px 20px 0px;
+	width: 265px;
+	padding: 0 0 10px 0;
+}
+
+.project img{
+	margin: 5px;
+	border-top: 1px solid lightgrey;
+	object-fit: cover;
+	object-position: 0px 0px;
+	width: 255px;
+	height: 150px;
+}
+
+.bio{
+	flex-direction: row;
+	flex-wrap:wrap;
+}
+
+.autobiography{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0px 20px;
+}
+
+.info{
+	padding: 10px 25px;
+	background-color: #FFFEFE;
+	border-top: 1px solid lightgrey;
+	width: 450px;
+	font-family: Montserrat;
+}
+
+.footer{
+	padding: 15px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	background-color: #FFFEFE;
+	border-top: 1px solid lightgrey;
+	margin: 0px;
+}
+
+.logo{
+	padding: 5px;
+	border-radius: 10px;
+	background-color: #FFFEFE;
+	width: 220px;
+	margin: 0px 10px 0px 110px;
+}
+
+.footer-info{
+	border-radius: 5px;
+	padding: 0px 10px 10px 15px;
+	background-color: #FFFEFE;
+	font-family: Montserrat;
+	width: 700px;
+	margin: 0px 110px 0px 10px;
+}
+
+.footer-info a{
+	font-family: Kanit;
+	text-decoration: none;
+	color: #FE1001;
+}
