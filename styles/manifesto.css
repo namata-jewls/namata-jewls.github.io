@@ -41,7 +41,7 @@ h3{
 }
 
 .pad{
-    width: 229px;
+    width: 279px;
 }
 
 .links{
@@ -96,15 +96,16 @@ h3{
 
 .mtitle{
     font-family: Kanit;
-    font-size: 5rem;   
-    line-height: 70px;
+    font-size: 4.3rem;   
+    line-height: 55px;
     color: #FE1001;
     text-align: center;
-    margin: 40px 0;
+    margin: 40px 0 20px 0;
 }
 
 .content{
     font-family: Kanit;
+    text-align: justify;
     font-size: 1rem;
     line-height: 18px;
     text-align: #1B1A1A;
@@ -114,8 +115,9 @@ h3{
 .end{
     font-family: Kanit;
     color: #FE1001;
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-align: right;
+	font-style: italic;
 }
 
 .footer{
@@ -143,6 +145,17 @@ h3{
 	font-family: Montserrat;
 	width: 700px;
 	margin: 0px 110px 0px 10px;
+}
+
+.health{
+	margin-top: 10px;
+	font-family: Kanit;
+	text-decoration: none;
+	color: #FE1001;
+}
+
+.health:hover{
+	color: #1B1A1A;	
 }
 
 .footer-info a{
